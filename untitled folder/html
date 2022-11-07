@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<Title>MY PROFILE</Title>
+</head>
+<body>
+<body style="background-color:  rgb(205, 205, 40);">
+
+<center> 
+
+<h1 style="background-color: crimson;">Welcome to my Webpage</h1>
+
+</center>
+<p>
+Hello Iam Monish.T <br>
+Iam studying in Amrita School of Engineering.<br>
+Iam a sports person.<br>
+Iam a fighter and not a quitter.<br>
+</p>
+
+<center>
+
+<h2 style="background-color: crimson;">HOBBIES</h2>
+
+</center>
+<p>
+My hobbies are : <br>
+playing football <br>
+playing cricket <br>
+playing chess <br>
+going to gym <br>
+</p>
+
+</body>
+</html>
