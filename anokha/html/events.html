@@ -1,0 +1,225 @@
+<!--
+Author : monish T
+Created Date : 20 December 2022
+Update Date : 10 January 2023
+Description : Events Page for Anokha 
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" >
+        <meta name="viewport" content="width=device-width, intial-scale=1.0" >
+        
+        <title> Event </title>
+        <link rel="icon" type="image/x-icon" href="../images/atom.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </link>    
+    </head>
+    <body>
+        <style>
+             *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none  ;
+}
+body{
+    overflow-x: hidden;
+}
+.main-width{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+#logo
+{
+   position: absolute;
+   height: 10px;
+   top: 1%;
+   left: 5%;
+   font-size: 10px;
+   color: #01ce69;
+   font-weight: bolder;
+}
+.hero{
+    width: 100%;
+    height: 160%;
+    min-height: 100vh;
+    background-image: url("https://i2.wp.com/i.pinimg.com/originals/e4/9a/3d/e49a3d345af2cc85aa174323e7c563cb.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+
+header{
+    padding: 40px 0 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .hamb{
+    width: 35px;
+    height: 24px;
+    right: 10%;
+    top: 60px;
+    z-index: 5;
+    background: black;
+    position: absolute;
+    cursor: pointer;
+    display: none;
+
+}
+nav .hamb span{
+    display: block;
+    display: red;
+    width: 100%;
+    height: 3px;
+    transition: .3s;
+    transition-property: transform,opacity;
+}
+
+nav .hamb span:nth-child(2){
+    margin: 7px 0px;
+
+}
+nav .nav-list{
+    list-style: none;
+    margin-left: 42%;
+    margin-top: 20px;
+    
+}
+nav .nav-list li{
+    display: inline-block ;
+}
+nav .nav-list li a{
+    display: inline-block;
+    color: #eee;
+    margin-left: 55px;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+nav .nav-list li:not(:last-child) a:hover{
+    color: red;
+    transition: .4s;
+}
+nav .nav-list li.btn a{
+    display: inline-block;
+    background: transparent;
+    border: 2px solid red;
+    padding: 9px 28px;
+    border-radius: 30px;
+    line-height: 1.3;
+    color: red;
+    font-weight: 500;
+}
+nav .nav-list li.btn:hover a{
+    background: red;
+    color: white;
+    border: 2px solid transparent;
+    transition: .4s;
+
+}
+#ios
+{
+    text-align: right;
+    position: absolute;
+    height: 30px;
+    top:23%;
+    right:8%
+}
+#android
+{
+    text-align: right;
+    position: absolute;
+    height: 50px;
+    top:60%;
+    right:8%
+}
+.container{
+    padding-top: 120px;
+
+}
+.container .hero-text{
+    margin-right: 40px;
+}
+.container .hero-text h1{
+    color: white;
+    font-size: 47px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 20px 0px 20px;
+}
+span{
+    color: red;
+}
+.container .hero-text h3{
+    color: #eee;
+    font-weight: 400;
+    font-size: 17px;
+}
+.container .hero-text ol{
+    width: 440px;
+    max-width: 100%;
+    color: white;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-left: 70px;
+}
+
+</style>
+<section class="hero">
+    <div class="main-width">
+        <div class="logo">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+        </div>
+        <div id="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/en/f/f8/Amrita-vishwa-vidyapeetham-color-logo.png" width="270" height="110">
+        </div>
+        <nav>
+            <div class="hamb">
+            <span></span>
+            <span></span>
+            <span></span>
+            
+        </div>
+
+        <ul class="nav-list">
+            <li><a href="./event.html">Event</a></li>
+            <li><a href="./login.html">Login</a></li>
+            <li><a href="./register.html">Registration</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li class="btn"><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+        <div class="container">
+            <div class="hero-text">
+                <h1>Amrita's <span>Anokha Tech Fest  </span></h1><br><br>
+                <ol type="i">
+                    <li> Special event as it is happening on the Silver Jubilee year of the Amrita Vishwa Vidyapeetham, Coimbatore campus.</li><br><br>
+                    <li> A new dimension added to this 10th edition as Anokha emerging as perhaps the first green techfest in India. This year’s Theme was Green Anokha with a vision to have a fully smart and green campus. Various activities towards this include e-passport or Anokha pass for all participants, no printing with all information on events and workshops on Anokha app</li><br>
+                    <li>50 highly competitive events in all branches of engineering, gaming and robotics. Popular contests and competitions included Robowarz, Amrita’s version of Battlebots, Death race, Autonomous robots & Drone challenge, Arduino U know, Hydropowered Rocket, Paper wings, Robosoccer, King of Concrete and master of circuits.</li>
+                </ol> 
+                <div id="ios">
+                    <img src="http://amrita.edu/wp-content/uploads/2018/02/anokha20181.jpg" alt="Anokha" width="350" height="250">
+                </div>
+                <div id="android">
+                    <img src="http://amrita.edu/wp-content/uploads/2019/02/anokha-2019-techfest30.jpg" alt="nokha" width="400" height="250">
+                </div>
+                </div>
+                </div>
+                </div>
+            </section>
+            </body>
+            </html>
+            
